@@ -437,15 +437,21 @@ gap:100px;
     justify-content: space-between;
     justify-content: space-around;
     padding: 30px;
+
+}
+.featext{
+    margin-left :100px;
 }
 .featext h1{
     font-size: 30px;
     font-weight: 300;
+    
 }
 .featext p{
     font-size:10px ;
     width: 450px;
     font-weight: 300;
+    
 }
 .platform{
     background-color: rgb(235, 229, 229);
