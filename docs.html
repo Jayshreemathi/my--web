@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build responsive website</title>
+    <link rel="stylesheet" href="buildwebdesign.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&family=Lato:ital,
+wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Special+Gothic+Condensed+One&display=swap" 
+rel="stylesheet">
+<!-- Add this in the <head> of your HTML -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        window.addEventListener('load', () => {
+          document.querySelector('.show-text')?.classList.add('animate');
+          document.querySelector('.show-label')?.classList.add('animate');
+        });
+      </script>
+      <script>
+        window.addEventListener("load", () => {
+          document.querySelector(".container")?.classList.add("animate");
+        });
+      </script>
+      <script>
+        window.addEventListener("load", () => {
+          const selectors = [".stats", ".images", ".cloud", ".supportedlang", ".infopage"];
+          selectors.forEach((selector) => {
+            document.querySelectorAll(selector).forEach((el) => el.classList.add("animate"));
+          });
+        });
+      </script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="cracko">Cracko</h1>
+            <nav>
+                <ul>
+                    <li><a href="homy.html">Home</a></li>
+                        <li><a href="fea.html">Features</a></li>
+                    <li><a href="docs.html">Docs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <section>
+        <div class="docgrid">
+        <div class="docshowcase">
+            <h1>Docs</h1>
+            <p>Learn how to setup and install Cracko platform</p>
+        </div>
+        <div>
+            <img src="document.png" alt="" width="200px">
+        </div>
+    </div>
+    </section>
+    <section class="docess">
+        <div class="doc">
+        <div class="doctext">
+             <ul class="l1">
+                <li>Essentials</li>
+                <li>Introduction</li>
+                <li>About Cracko</li>
+                <li>Installation</li>
+            </ul>
+            <ul class="l2">
+                <li>Deployment</li>
+                <li>Setting up a container</li>
+                <li>Using the CLI</li>
+                <li>Mangaging resources</li>
+                <li>Upgrade & downgrade</li>
+
+             </ul>
+        </div>
+        <div class="doctext2">
+            <h2>Introduction</h2>
+            <p>Welcome to [Your Website Name], your go-to platform for learning, exploring, 
+                and mastering the world of coding. Whether you're a complete beginner or an 
+                experienced developer looking to sharpen your skills, we offer a wide range of 
+                resources designed to help you grow. 
+            </p>
+        <div class="docicon">
+            <i class="fas fa-info"> </i><p>Dive into hands-on tutorials, real-world projects, and a community 
+            that’s here to support you every step of the way.</p>
+        </div>
+        <h3>Documentaion</h3>
+        <p>Dive into hands-on tutorials, real-world projects, and a community 
+            that’s here to support you every step of the way.</p>
+        <a href="#" class="btndoc">Install CLI</a>
+        <h3>Requirements</h3>
+        <ul>
+        <li>Windows 10 Mac, Linux</li>
+        <li>Node.js v12 or higher</li>
+    </ul>
+        <h3>Install:</h3>
+        <div class="docinstall">
+            <p>Mac [Homebrew]</p>
+            <pre><code>$ brew install Cracko-cli</code></pre>
+            <p>NPM</p>
+            <pre><code>$ npm install Cracko-cli</code></pre>
+            <p>Yarn</p>
+            <pre><code>$ yarn install Cracko-cli</code></pre>
+
+
+        </div>
+
+        </div>
+    </div>
+    </section>
+    <section class="infopage">
+        <div class="infotext1">
+            <h3>Cracko</h3>
+            <p>Copyright 0 2024</p>
+        </div>
+        <div class="infotext2">
+            <nav>
+                <ul>
+                    <li><a href="homy.html">Home</a></li>
+                    <li><a href="fea.html">Features</a></li>
+                    <li><a href="docs.html">Documentaion</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="infotext3">
+            <ul class="subinfotext3">
+                <li id="icon"><a href="#"class="fa fa-facebook"></a></li>
+                <li id="icon"><a href="#"class="fa fa-twitter"></a></li>
+                <li id="icon"><a href="#"class="fa fa-instagram"></a></li>
+            </ul>
+            
+        </div>
+
+    </section>
+</body>
+</html>

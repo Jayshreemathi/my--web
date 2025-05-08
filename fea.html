@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Build responsive website</title>
+        <link rel="stylesheet" href="buildwebdesign.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Lato:ital,
+    wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Special+Gothic+Condensed+One&display=swap" 
+    rel="stylesheet">
+    <!-- Add this in the <head> of your HTML -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+          <script>
+            window.addEventListener("load", () => {
+              document.querySelector(".container")?.classList.add("animate");
+            });
+          </script>
+          <script>
+            window.addEventListener("load", () => {
+              const selectors = [".stats", ".images", ".cloud", ".supportedlang", ".infopage"];
+              selectors.forEach((selector) => {
+                document.querySelectorAll(selector).forEach((el) => el.classList.add("animate"));
+              });
+            });
+          </script>
+        
+</head>
+<body>
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="cracko">Cracko</h1>
+            <nav>
+                <ul>
+                    <li><a href="homy.html">Home</a></li>
+                    <li><a href="fea.html">Features</a></li>
+                    <li><a href="docs.html">Docs</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <section class="features">
+        <div class="featext">
+            <h1>Features</h1>
+            <p>Check out the features of Cracko that separate us from the competition</p>
+        </div>
+        <div class="feaimg">
+            <img src="2.png" alt="" width="200px">
+        </div>
+    </section>
+    <section class="platform">
+        <div>
+            <h1> The Cracko platform</h1>
+            <p>Code smarter, not harder—level up today.
+                Real projects, real skills, all the way.
+                From beginner basics to AI flow,
+                We’re the platform where coders grow.</p>
+        </div>
+        <div>
+            <img src="local-area.png" alt="">
+        </div>
+
+    </section>
+    <section class="fontgrid">
+        <div class="fontg">
+        <div class="eachfont">
+            <i class="fas fa-server fa-3x"></i>
+            <p>In the context of a coding platform, a server refers to the system re
+                sponsible for handling code execution, managing requests, and delivering responses to users.
+                 Depending on the type of platform, the server can serve different roles. For instance, in web development, 
+                 the server (or backend) processes user inputs,
+                 interacts with databases, and sends data back to the frontend. </p>
+        </div>
+        <div class="eachfont">
+            <i class="fa fa-laptop fa-3x" ></i>
+            <p>a laptop serves as the primary device through which developers and
+                 learners interact with code, tools, and programming environments.</p>
+        </div>
+        <div class="eachfont">
+            <i class="fas fa-database fa-3x"></i>
+            <p>a database is used to store, manage, and retrieve data efficiently, 
+                playing a crucial role in both user-facing applications and behind-the-scenes
+                 functionality.</p>
+        </div>
+        <div class="eachfont">
+            <i class="fas fa-power-off fa-3x"></i>
+            <p>powering off a device or losing power unexpectedly can disrupt
+                 the coding process and may lead to loss of unsaved work, e
+                 specially when working in local development environments.</p>
+        </div>
+        <div class="eachfont">
+            <i class="fas fa-upload fa-3x"></i>
+            <p> the upload feature allows users to bring external files—such as code files, 
+                datasets, images, libraries, or configuration files—into the development environment. 
+                This is particularly useful when users need to work with existing projects, 
+                test code using specific input files, or include assets required for a web or software application. </p>
+        </div>
+        <div class="eachfont">
+            <i class="fas fa-project-diagram fa-3x"></i>
+            <p> a project diagram is a visual representation of the structure, components, 
+                and flow of a software project.</p>
+        </div>
+    </div>
+    </section>
+    <section class="infopage">
+        <div class="infotext1">
+            <h3>Cracko</h3>
+            <p>Copyright 0 2024</p>
+        </div>
+        <div class="infotext2">
+            <nav>
+                <ul>
+                    <li><a href="homy.html">Home</a></li>
+                    <li><a href="fea.html">Features</a></li>
+                    <li><a href="docs.html">Documentaion</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="infotext3">
+            <ul class="subinfotext3">
+                <li id="icon"><a href="#"class="fa fa-facebook"></a></li>
+                <li id="icon"><a href="#"class="fa fa-twitter"></a></li>
+                <li id="icon"><a href="#"class="fa fa-instagram"></a></li>
+            </ul>
+            
+        </div>
+
+    </section>
+
+    
+</body>
+</html>
