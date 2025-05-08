@@ -397,7 +397,7 @@ gap:100px;
         width: 300px;
     }
 }
-@media (max-width:500px){
+@media (max-width:760px){
     .containergrid{
         grid-template-columns:repeat(1,1fr);
      
@@ -409,13 +409,13 @@ gap:100px;
         height:400px;
     }
     .cloudtext h2{
-        font-size: 30px;
+        font-size: 20px;
     }
     .statshead h1{
-        font-size: 30px;
+        font-size: 20px;
     }
     .statshead p{
-        font-size: 30px;
+        font-size: 20px;
     }
     .stats .grid {
         grid-template-columns: repeat (1,1fr);
@@ -481,7 +481,7 @@ grid-column: 1/4;
     grid-column: 1/3;
     
 }
-@media (max-width:500px){
+@media (max-width:760px){
     .fontg{
         grid-template-columns: repeat(1,1fr);
     }
@@ -507,7 +507,7 @@ grid-column: 1/4;
     
 }
 .docshowcase h1{
-    font-size: 40px;
+    font-size: 30px;
     font-weight:300;
 }
 .doctext{
@@ -571,16 +571,16 @@ pre code{
     padding:10px 20px;
     
 }
-@media (max-width:500px){
+@media (max-width:760px){
     .docgrid{
         flex-direction: column;
         align-items: center;
     }
     .docshowcase h1{
-        font-size:30px;
+        font-size:20px;
     }
     .docshowcase p{
-        font-size: 20px;
+        font-size: 10px;
     }
     .doc{
         grid-template-columns:repeat(1,1fr) ;
